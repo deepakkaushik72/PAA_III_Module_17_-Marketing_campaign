@@ -32,4 +32,32 @@
 >> - "Illiterate" category have a higher conversion rate (over 25%) compared to other education levels
 >> - "Sept, Oct, Dec and March" have over 40% conversion rates
 >> - "Poutcome": Success of the previous campaign outcome leads to higher 
- conversion rates (over 60%
+ conversion rates (over 60%)
+### 6. FEATURE ENGINEERING:
+> - There are 10 Features Identified (incl. target Variable) for building the ML models: These are nr.employed, emp.var.rate, pdays, previous, default, job, education, poutcome, month and Target variable (y)
+> - Defined and Input Features and Target Variable
+> - Created a preprocess for Scaling the Numerical features and OneHotEncoding for categorical features
+> - Created a Train and Test Split of the Input features and Target Variable (Applied 25% test split and Stratify = y)
+### 7. MODELING TESTING & EVALUATION:
+> - Used the Dummy Classifier to calculate the Model Accuracy and Racall: Accuracy at 87% Recall is 0%
+> - Build up the Simple Model: KNN, Decision Trees, Logistic Regression and SVM: All have a base accuracy of around 87% and Recall is just 20%
+> - Did the Hyper Parameter tuning for all the models: Accuracy in the range of 81%-82% and Recall improved significantly to 63% except KNN
+> - Selected the DECISION TREE model as it had an accuracy of 81%, Recall of 63% and Precision of 38% but more importantly, its easy to communicate the non-technical audience on how the model works to identify whether a customer will subscribe to Term Deposit or Not (Target variable 1 or 0) 
+> - Used the Confusion Matrix to show the Recall for both Positive and Negative class using all the Classification Models
+### 8. RESULTS
+> - Best Model: Decision Tree: Balance between Recall, Precision and Accuracy
+> - Best Parameters: {'classifier__max_depth': 5, 'classifier__min_samples_split': 10}
+>>> - Training Accuracy: 0.85
+>>> -	Testing Accuracy: 0.82
+>>> - Testing Recall: 0.63
+>>> - Testing Precision: 0.38
+> - Factors that influence the Decision to Subscribe to Term Deposit:"nr.employed", "pdays", "previous", "month", "poutcome"
+### 9. DEPLOYMENT / NEXT STEPS
+> - Communicate the Results of the best Model and Understand the Business context in terms of what other factors may influence the Conversion rate and get the additional data and model those features into the Data set.
+> - Aim for 90% Accuracy and 80% Recall with new features included in the dataset
+> - Deploy the current model (Decision Tree) working closely with The Marketing team understanding the Business objectives they would want to achieve.
+> - Work with Marketing Team to share the Results and understand the Marketing Objectives: Maximize Revenue (Recall will be very high but conversion rate at current levels of 12.6% reflecting through precision)
+> - Maximize the Marketing Investment and Revenue (Current coverage of 63% customers and with a conversion rate of 38% (same as precision) which is 3 times the current) and Recall of 63%
+> - Maximize the revenue and have double the conversion Rate: Lower the threshold to 0.4, which will cover 70% customers converted (Recall of 70%) and have a conversion rate of 25% (Twice the current conversion rate of 12.6%)
+
+
