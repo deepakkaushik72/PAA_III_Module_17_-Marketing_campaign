@@ -1,7 +1,7 @@
-## Practical Application Assignment III : Marketing Campaign Conversion Rate
-### Link to Jupyter Notebook: https://github.com/deepakkaushik72/PAA_III_Module_17_-Marketing_campaign/blob/main/prompt_III.ipynb
-### Link to Images: https://github.com/deepakkaushik72/PAA_III_Module_17_-Marketing_campaign/tree/main/Images%20-%20Analysis
-### Link to Data: https://github.com/deepakkaushik72/PAA_III_Module_17_-Marketing_campaign/blob/main/bank-additional-full.csv
+### Practical Application Assignment III : Marketing Campaign Conversion Rate
+#### Link to Jupyter Notebook: https://github.com/deepakkaushik72/PAA_III_Module_17_-Marketing_campaign/blob/main/prompt_III.ipynb
+#### Link to Images: https://github.com/deepakkaushik72/PAA_III_Module_17_-Marketing_campaign/tree/main/Images%20-%20Analysis
+#### Link to Data: https://github.com/deepakkaushik72/PAA_III_Module_17_-Marketing_campaign/blob/main/bank-additional-full.csv
 
 #### 1. BUSINESS PROBLEM:
 > - The business goal is to find a model that can predict in advance whether a customer will subscribe to a term deposit based on their demographic, history and social and economic attributes (21 Numerical and Categorical variables in Dataset)
@@ -42,7 +42,7 @@
 #### 7. MODELING TESTING & EVALUATION:
 > - Used the Dummy Classifier to calculate the Model Accuracy and Racall: Accuracy at 87% Recall is 0%
 > - Build up the Simple Model: KNN, Decision Trees, Logistic Regression and SVM: All have a base accuracy of around 87% and Recall is just 20%
-> - Did the Hyper Parameter tuning for all the models: **Accuracy in the range of 81%-82% and Recall improved significantly to 63% except KNN**
+> - Did the Hyper Parameter tuning for all the models: **Accuracy in the range of 81%-82% and Recall improved significantly to 63% for all models** except KNN
 > - Selected the **DECISION TREE** model as it had an **accuracy of 81%, Recall of 63% and Precision of 38%** but more importantly, its easy to communicate the non-technical audience on how the model works to identify whether a customer will subscribe to Term Deposit or Not (Target variable 1 or 0) 
 > - Used the **Confusion Matrix** to show the Recall for both Positive and Negative class using all the Classification Models
 #### 8. RESULTS
