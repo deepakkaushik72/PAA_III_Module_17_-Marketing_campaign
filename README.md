@@ -60,7 +60,8 @@
 > - **"September", "October", "December" and "March"** have conversio rate of over **45%**
 > - **"Outcome of Previous campaign (poutcome)"** have significantly higher conversion rate of over **60%**
 #### 9. DEPLOYMENT / NEXT STEPS
-> - Communicate the Results of the best Model and Understand the Business context in terms of what other factors may influence the Conversion rate and get the additional data and model those features into the Data set.
+> - Communicate the Results of the best Model
+> - Understand the Business context in terms of what other factors may influence the Conversion rate and get the additional data and model those features into the Data set. Some of the other Features than can be considered are: **"Account Balance", competition data around "Interest Rates for Deposits", "Debit card", "Agent name who made the call", "Awareness of the Bank product", "Phone Conversation transcript"**
 > - Aim for 90% Accuracy and 80% Recall with new features included in the dataset
 > - Deploy the current model (Decision Tree) working closely with The Marketing team understanding the Business objectives they would want to achieve.
 > - Work with Marketing Team to share the Results and understand the Marketing Objectives:
