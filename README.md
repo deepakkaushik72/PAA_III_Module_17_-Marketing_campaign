@@ -4,8 +4,8 @@
 #### Link to Data: https://github.com/deepakkaushik72/PAA_III_Module_17_-Marketing_campaign/blob/main/bank-additional-full.csv
 
 #### 1. BUSINESS PROBLEM / OBJECTIVE:
+> - Help the bank to target potential customers more effectively and improve their customer target effectiveness (Conversion Rate) and optimize the Return on Marketing Investment (ROMI). Have a Targeted marketing campaign than mass targeting. Precise trade off decision on **"Revenue Maximization and Conversion Rate (Precision- Recall Tradeoff)"**
 > - The business goal is to find a model that can predict in advance whether a customer will subscribe to a term deposit based on their demographic, history and social and economic attributes (21 Numerical and Categorical variables in Dataset)
-> - Help the bank to target potential customers more effectively and improve their customer target effectiveness (Conversion Rate) and optimize the Return on Marketing Investment (ROMI). How do we make the trade off decision on **"Revenue Maximization and Conversion Rate (Precision- Recall Tradeoff)"**
 > - Better Management of available resources (human effort, phone calls and time)
 > - Over **80% Accuracy and with 70% Recall of the positive class** (converted customers to subscription) 
 #### 2. APPROACH
