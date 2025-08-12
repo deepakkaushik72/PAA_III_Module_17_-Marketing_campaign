@@ -47,7 +47,7 @@
 > - Did the Hyper Parameter tuning for all the models: **Accuracy in the range of 81%-82% and Recall improved significantly to 63% for all models** except KNN
 > - Selected the **DECISION TREE** model as it had an **accuracy of 81%, Recall of 63% and Precision of 38%** but more importantly, its easy to communicate the non-technical audience on how the model works to identify whether a customer will subscribe to Term Deposit or Not (Target variable 1 or 0) 
 > - Used the **Confusion Matrix** to show the Recall for both Positive and Negative class using all the Classification Models
-#### 8. RESULTS
+#### 8. RESULTS / FINDINGS
 > - Best Model: Decision Tree: Balance between Recall, Precision and Accuracy
 > - Best Parameters: {'classifier__max_depth': 5, 'classifier__min_samples_split': 10}
 >>> - Training Accuracy: 0.85
@@ -55,6 +55,10 @@
 >>> - **Testing Recall: 0.63**
 >>> - Testing Precision: 0.38
 > - Factors that influence the Decision to Subscribe to Term Deposit:"nr.employed", "pdays", "previous", "month", "poutcome"
+> - **Student and Retired** categories have twice the conversion rate **(~25%+)**
+> - **"Illiterate"** category in Education has twice the conversion rate **(~25%+)**
+> - **"September", "October", "December" and "March"** have conversio rate of over **45%**
+> - **"Outcome of Previous campaign (poutcome)"** have significantly higher conversion rate of over **60%**
 #### 9. DEPLOYMENT / NEXT STEPS
 > - Communicate the Results of the best Model and Understand the Business context in terms of what other factors may influence the Conversion rate and get the additional data and model those features into the Data set.
 > - Aim for 90% Accuracy and 80% Recall with new features included in the dataset
