@@ -3,7 +3,7 @@
 #### Link to Images: https://github.com/deepakkaushik72/PAA_III_Module_17_-Marketing_campaign/tree/main/Images%20-%20Analysis
 #### Link to Data: https://github.com/deepakkaushik72/PAA_III_Module_17_-Marketing_campaign/blob/main/bank-additional-full.csv
 
-#### 1. BUSINESS PROBLEM:
+#### 1. BUSINESS PROBLEM / OBJECTIVE:
 > - The business goal is to find a model that can predict in advance whether a customer will subscribe to a term deposit based on their demographic, history and social and economic attributes (21 Numerical and Categorical variables in Dataset)
 > - Help the bank to target potential customers more effectively and improve their customer target effectiveness (Conversion Rate) and optimize the Return on Marketing     Investment (ROMI). How do we make the trade off decision on **"Revenue Maximization and Conversion Rate (Precision- Recall Tradeoff)"**
 > - Over **80% Accuracy and with 70% Recall of the positive class** (converted customers to subscription) 
