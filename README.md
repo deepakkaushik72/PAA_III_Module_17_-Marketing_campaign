@@ -5,7 +5,8 @@
 
 #### 1. BUSINESS PROBLEM / OBJECTIVE:
 > - The business goal is to find a model that can predict in advance whether a customer will subscribe to a term deposit based on their demographic, history and social and economic attributes (21 Numerical and Categorical variables in Dataset)
-> - Help the bank to target potential customers more effectively and improve their customer target effectiveness (Conversion Rate) and optimize the Return on Marketing     Investment (ROMI). How do we make the trade off decision on **"Revenue Maximization and Conversion Rate (Precision- Recall Tradeoff)"**
+> - Help the bank to target potential customers more effectively and improve their customer target effectiveness (Conversion Rate) and optimize the Return on Marketing Investment (ROMI). How do we make the trade off decision on **"Revenue Maximization and Conversion Rate (Precision- Recall Tradeoff)"**
+> - Better Management of available resources (human effort, phone calls and time)
 > - Over **80% Accuracy and with 70% Recall of the positive class** (converted customers to subscription) 
 #### 2. APPROACH
 > - This is a binary classification problem where the target variable is 'y' which indicates whether the customer has subscribed to a term deposit or not (1 - Yes, 0 - No).
