@@ -15,6 +15,7 @@
 > - Different classification models like **Logistics Regression, Decision Tree, KNN and SVM** will be used to predict the target variable
 #### 3. SUCCESS CRITERION:
 > Deploy the model will predict whether a customer will Subscribe to Term Deposit or not with the following success criteria: 
+> - Clearly identfy the factors/ features that drive the conversion rate
 > - Highest **Recall (70%)** of the positive class (Y=1) while keeping **accuracy over 80%**
 > - Maximizing the conversion rate (Precision) of the Marketing campaign and optimizing the Return on Marketing Investment
 > - Optimizing the F1 Score (Precision-Recall Tradeoff)
