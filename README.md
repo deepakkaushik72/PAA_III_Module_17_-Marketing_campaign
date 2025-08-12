@@ -58,7 +58,7 @@
 > - Aim for 90% Accuracy and 80% Recall with new features included in the dataset
 > - Deploy the current model (Decision Tree) working closely with The Marketing team understanding the Business objectives they would want to achieve.
 > - Work with Marketing Team to share the Results and understand the Marketing Objectives:
->> - Maximize Revenue (Recall will be very high but conversion rate at current levels of 12.6% reflecting through precision): Current Scenario
+>> - Maximize Revenue (Recall will be high but conversion rate at current levels of 12.6% reflecting through precision): Current Scenario
 >> - Maximize the Marketing Investment and Revenue **(Coverage of 63% customers (Recall) and with a conversion rate of 38% (same as precision) which is 3 times the current)**
 >> - Maximize the revenue and have double the conversion Rate: **Lower the threshold to 0.4, which will cover 70% customers converted (Recall of 70%) and have a conversion rate of 25% (Twice the current conversion rate of 12.6%)**
 
